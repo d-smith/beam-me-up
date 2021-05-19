@@ -1,3 +1,5 @@
+*.iml
+.idea/
 .ipynb_checkpoints/
 target/
 counts-00*
