@@ -44,7 +44,7 @@ public class Filtering {
                 .apply(MapElements.via(new SimpleFunction<Double, Double>() {
                     @Override
                     public Double apply(Double input) {
-                        System.out.println("-post-filtered: " + input);
+                        System.out.println("mean price: " + input);
                         return input;
                     }
                 }));
