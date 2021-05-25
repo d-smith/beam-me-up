@@ -4,3 +4,4 @@
 target/
 counts-00*
 sink/
+streaming_source/
